@@ -1,0 +1,31 @@
+# Ignora todas as pastas node_modules (front e back)
+**/node_modules/
+
+# Ignora arquivos de ambiente (.env)
+**/.env
+
+# Ignora pastas de build (React e outros)
+**/build/
+**/dist/
+
+# Ignora arquivos de log
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignora cache do editor e sistema
+.DS_Store
+Thumbs.db
+
+# Ignora pastas do editor (VSCode, etc)
+.vscode/
+.idea/
+*.swp
+
+# Ignora coverage de testes
+coverage/
+
+# Ignora arquivos temporários
+*.tmp
+*.temp
